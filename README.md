@@ -21,28 +21,28 @@ The service performs three-stage analysis on social media content:
 
 ```
 ┌─────────────────────┐
-│ Stage 1: Triage     │
-│ • LLM Classification│
-│ • Spam Detection    │
-│ • Post Type         │
+│ Stage 1: Triage        │
+│ • LLM Classification   │
+│ • Spam Detection       │
+│ • Post Type            │
 └─────────────────────┘
          │
          ▼
 ┌─────────────────────┐
-│ Stage 2: Veracity   │
-│ (Conditional)       │
-│ • AI Verification   │
-│ • LLM Analysis      │
-│ • Justification     │
+│ Stage 2: Veracity      │
+│ (Conditional)          │
+│ • AI Verification      │
+│ • LLM Analysis         │
+│ • Justification        │
 └─────────────────────┘
          │
          ▼
 ┌─────────────────────┐
-│ Stage 3: Context    │
-│ (Conditional)       │
-│ • Political Analysis│
-│ • Intent Detection  │
-│ • Nuance Scoring    │
+│ Stage 3: Context       │
+│ (Conditional)          │
+│ • Political Analysis   │
+│ • Intent Detection     │
+│ • Nuance Scoring       │
 └─────────────────────┘
 ```
 
